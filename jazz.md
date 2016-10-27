@@ -1,4 +1,4 @@
-# **CHARLIE PARKER’S “KO KO”**
+# CHARLIE PARKER’S “KO KO”
 
 ## By: **Uriel Navarro**
 
