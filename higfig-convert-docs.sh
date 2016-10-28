@@ -25,10 +25,10 @@ pandoc -o jazz.html jazz.md
 # Convert markdown to DOCX
 echo -e "${green}-NEXT${NC}"
 echo "We will be converting our Markdown to DOCX"
-echo "Practice typing the command out. Hint: Follow our answer from our last conversion and format it the same"
+echo "Practice typing the command out. (Hint: Follow our answer from our last conversion and format it the same)"
 read
 pandoc -S --smart -o jazz.docx jazz.md
-echo -e "Once again BOOM! ANOTHER ONE! ${green}We have converted Markdwon to DOCX! Isn't this awesome?${NC}"
+echo -e "Once again BOOM! ANOTHER ONE! ${green}We have converted Markdown to DOCX! Isn't this awesome?${NC}"
 read varname1
 echo -e "You said ${blue}$varname1${NC}, good thing I know that you said yes!"
 
@@ -42,10 +42,10 @@ pandoc -o jazz.odt jazz.md
 # Convert markdown to PDF
 read 
 echo -e ${cyan}-NEXT${NC}
-echo "Finally we will be converting Markdown to PDF"
-echo -e "${cyan}W${NC}${green}O${NC}${RED}O${NC}${blue}O${NC}${mag}O${NC}${cyan}O${NC}"
-echo -e "Drum roll please!!!"
-echo -e "${cyan}BOOOOOOOOOM CONVERTED PDF FILE${NC}"
+echo -e "Finally we will be converting Markdown to PDF, ${cyan}W${NC}${green}O${NC}${RED}O${NC}${blue}O${NC}${mag}O${NC}${cyan}O${NC}"
+echo "Let me ask again ARE YOU READY? Y/N?"
+read
+echo -e "${cyan}B${NC}${green}O${NC}${RED}O${NC}${blue}O${NC}${mag}O${NC}${cyan}O${NC}${blue}M${NC} ${cyan}CONVERTED PDF FILE${NC}"
 pandoc -o jazz.pdf jazz.md
 
 # Make the command line read "Converted INPUT-FILENAME to HTML, DOCX, ODT, PDF
